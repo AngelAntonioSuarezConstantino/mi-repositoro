@@ -1,8 +1,75 @@
 html{
     font-family: 'Roboto', sans-serif;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.form-register{
+    width: 400px;
+    background: rgb(186, 186, 186);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.controls{
+    width: 100%;
+    background: rgb(186, 186, 186);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a{
+    color: black;
+}
+
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons{
+    width: 100%;
+    background: rgb(119, 119, 119);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+
 body{
     margin: 0;
+    background-image: url('img/Fondo.jpg');
+    background-size: 1550px 750px;
 }
 
 a{
@@ -13,10 +80,33 @@ a{
 header{
     display: flex;
     height: 70px;
-    background: rgb(184, 184, 184);
+    background: rgb(159, 159, 159);
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    border: 1px solid rgba(152, 150, 150, 0.623);
+}
+
+header h1{
+    font-family: 'Gagalin';
+}
+
+footer{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-direction: row-reverse;
+}
+
+
+
+.ico img{
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    margin-right: 10px;
 }
 
 .logo{
@@ -25,14 +115,31 @@ header{
 }
 
 .logo img{
-    height: 50px;
+    height: 70px;
     margin-right: 10px;
+}
+
+.contacto{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: black;
+    font-family: 'calibri';
+    font-size: 20px;
+    width: 500px;
+    background: rgb(186, 186, 186);
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 37px #000;
 }
 
 nav a{
     font-weight: 600;
     padding-right: 10px;
 }
+
 nav a:hover{
     color: white;
 }
