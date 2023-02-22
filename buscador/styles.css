@@ -1,0 +1,51 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background: rgb(184, 184, 184);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: white;
+}
+.form-register{
+    width: 400px;
+    position: absolute;
+    left: 100px;
+    font-family: 'calibri';
+}
+.controls{
+    width: 100%;
+    background: rgb(186, 186, 186);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
