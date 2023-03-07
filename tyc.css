@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+
+ 
+}
+p {
+    text-align: justify;
+    background-color: rgb(255, 244, 244);
+    text-decoration: rgb(0, 0, 0);
+    border: 3px solid #020202;
+}
+.ter {
+    color: rgb(46, 46, 46);
+    border-radius: 100%;
+
+}
+span {
+    color: rgb(58, 59, 131);
+    background-color: rgba(0, 60, 255, 0.185);
+}
+ .s1 {
+    color: rgba(34, 7, 7, 0.699);
+    background-color: rgb(255, 2, 2);
+} 

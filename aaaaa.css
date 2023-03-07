@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h1 {
+    text-align: center;
+    box-shadow: 1px #000; 
+}
+p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: #0000005b;
+border: 1px solid #81d315;
+}
+.hero {
+    min-height: 100vh;
+    background-image: url(imagenes/fondo.jpg);
+    background-repeat: no-repeat ;
+    background-position: center center;
+    background-size: cover;
+}

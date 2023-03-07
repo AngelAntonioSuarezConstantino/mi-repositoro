@@ -1,0 +1,161 @@
+html{
+    font-family: 'poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.form-register {
+    width: 400px;
+    background: rgba(31, 30, 30, 0.651);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 37px #000000;
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.controls{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.932);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.form-register a{
+    color: rgb(255, 255, 255);
+}
+
+.form-register a:hover{
+    color: rgb(20, 4, 243);
+    text-decoration: underline;
+}
+
+.form-register .botons{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+
+body{
+    margin: 0;
+    background-image: url('i/Fondo.jpg');
+    background-size: 1550px 750px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+ header{
+    display: flex;
+    height: 70px;
+    background: rgba(44, 43, 43, 0.808);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* border: 1px solid rgba(229, 201, 201, 0.877);  */
+} 
+
+header h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+     align-items: center; 
+    padding: 10px;
+    flex-direction: row-reverse;
+}
+
+
+
+ .ico img{
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+}
+
+.contacto{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: black;
+    font-family: 'calibri';
+    font-size: 20px;
+    width: 500px;
+    background: rgb(7, 7, 7);
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 37px #000;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+ .hero {
+    min-height: 100vh;
+    background-image:  url(imagenes/fondo2.jpg);
+    background-repeat: no-repeat ;
+    background-position: center center;
+    background-size: cover;
+} 
+.fondo {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(32, 30, 30, 0.39)), 
+    url(imagenes/fondo2.jpg);
+    background-repeat: no-repeat ;
+    background-position: center center;
+    background-size: cover;
+} 

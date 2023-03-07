@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container1 {
+    position: absolute;
+    left: 25%;
+    top: 18%;
+    transform: translate(-50%,-50%);
+    padding: 10px;   
+}
+input {
+    outline: none;
+    box-sizing: border-box;
+    height: 60px;
+    width: 0;
+    padding: 0 20px;
+    color: #000;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid grey;
+    transition: all .7s ease;
+
+}
+::placeholder {
+    color:gray;
+}
+.btn {
+    position: absolute ;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    background: grey;
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn i {
+    font-size: 25px;
+    color: #fff;
+    line-height: 80px;
+    transition: all .7s ease;
+}
+.container1:hover input {
+    width: 350px;
+}
+.container1:hover i{
+    transform: rotate(-360deg);
+}
+.btn:hover {
+    background: red;
+}
